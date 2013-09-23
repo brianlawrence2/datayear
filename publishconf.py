@@ -10,8 +10,10 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'brianlawrence2.github.io/datayear'
+SITEURL = 'datayear.us'
 RELATIVE_URLS = True
+DISQUS_SITENAME = 'datayear'
+GOOGLE_ANALYTICS = 'UA-34603374-3'
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
@@ -27,5 +29,5 @@ DELETE_OUTPUT_DIRECTORY = True
 THEME = "pelican-bootstrap3"
 
 # Social widget
-SOCIAL = (('Github', 'https://github.com/brianlawrence2'),
-          ('Twitter', 'https://twitter.com/importantbrian'),)
+SOCIAL = (('github', 'https://github.com/brianlawrence2/datayear/'),
+          ('twitter', 'https://twitter.com/importantbrian'),)
